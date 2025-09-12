@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página Vikinga</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Enlace al CSS -->
+</head>
+<body>
+  <!-- Encabezado -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#" class="logo">MyLogo</a>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Contenido principal -->
+  <main class="container">
+    <!-- Sección de tarjetas -->
+    <section class="cards">
+      <article class="card">
+        <div class="card-media">
+          <img src="./imagenes/descarga.jpg" alt="Imagen 1" alt="Vikingos celebrando">
+        </div>
+        <div class="card-body">
+          <h2>Celebración Vikinga</h2>
+          <p>
+            Una comunidad de vikingos festeja la llegada de un nuevo día en medio de las montañas nevadas. 
+            Escena inspirada en la serie anime histórica.
+          </p>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-media">
+          <img src="./imagenes/images.jpg" alt="Guerrero vikingo en batalla">
+        </div>
+        <div class="card-body">
+          <h2>Guerrero en Batalla</h2>
+          <p>
+            Un guerrero vikingo se prepara para el combate, representando el honor y la fuerza de las antiguas sagas nórdicas.
+          </p>
+        </div>
+      </article>
+    </section>
+
+    <!-- Formulario de contacto -->
+    <section class="contact">
+      <h2>Formulario de Contacto</h2>
+      <form class="contact-form">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Correo:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Mensaje:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit" class="btn">Enviar</button>
+      </form>
+    </section>
+
+    <!-- Tabla de puntajes -->
+    <section class="scores">
+      <h2>Tabla de Puntajes</h2>
+      <table class="score-table">
+        <thead>
+          <tr>
+            <th>Nombre</th>
+            <th>Puntaje</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Ragnar</td>
+            <td>95</td>
+          </tr>
+          <tr>
+            <td>Lagertha</td>
+            <td>88</td>
+          </tr>
+          <tr>
+            <td>Floki</td>
+            <td>76</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td class="text-right">Promedio</td>
+            <td>86</td>
+          </tr>
+        </tfoot>
+      </table>
+    </section>
+  </main>
+
+  <!-- Pie de página -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 Viking Page. Todos los derechos reservados.</p>
+      <p><a href="#">Política de Privacidad</a></p>
+    </div>
+  </footer>
+</body>
+</html>

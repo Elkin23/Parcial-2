@@ -1,0 +1,62 @@
+/* Ajuste al header */
+.site-header {
+  background: #333;
+  color: #fff;
+  padding: 16px 0;
+  margin-bottom: 40px; /* un poco más de separación del contenido */
+}
+
+.main-nav a:hover {
+  color: #ffd700; /* dorado en hover, da más vida */
+}
+
+/* Cards */
+.card-body h2 {
+  font-size: 1.2rem;  /* un poco más grande */
+  margin-bottom: 12px;
+  color: var(--dark);
+}
+.card-body p {
+  font-size: 0.95rem;
+  color: #444;
+}
+
+/* Formulario */
+.contact-form input,
+.contact-form textarea {
+  transition: border 0.3s, box-shadow 0.3s;
+}
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #888;
+  box-shadow: 0 0 4px rgba(0,0,0,0.15);
+  outline: none;
+}
+.btn {
+  background: #333;
+  color: #fff;
+  transition: background 0.3s;
+}
+.btn:hover {
+  background: #555;
+}
+
+/* Tabla */
+.score-table th,
+.score-table td {
+  text-align: center; /* centra números */
+}
+.score-table th:first-child,
+.score-table td:first-child {
+  text-align: left; /* nombres alineados a la izquierda */
+}
+
+/* Footer */
+.site-footer {
+  background: #222;
+  color: #ddd;
+  text-align: center;
+}
+.site-footer a {
+  color: #ffd700;
+}
