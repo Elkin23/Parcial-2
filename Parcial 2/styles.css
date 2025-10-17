@@ -1,0 +1,266 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 40px;
+}
+
+.logo {
+  width: 100px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 14px;
+}
+
+.right-nav {
+  display: flex;
+  align-items: center;
+}
+
+.right-nav a {
+  color: #8c52ff;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.right-nav input {
+  padding: 5px;
+}
+
+.hero {
+  position: relative;
+  text-align: center;
+}
+
+.hero-img {
+  width: 100%;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+  color: white;
+  text-align: left;
+}
+
+.hero-text h1 {
+  font-size: 6rem;
+  color: transparent;
+  -webkit-text-stroke: 1px #d4af37;
+  background: linear-gradient(to right, #d4af37, #3050ff);
+  -webkit-background-clip: text;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.btn-red {
+  background-color: #d32f2f;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn-learn {
+  background: none;
+  border: 1px solid #000;
+  color: black;
+  cursor: pointer;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 60px;
+  gap: 20px;
+}
+
+.purple {
+  background-color: #4b2a93;
+  color: white;
+}
+
+.teal {
+  background-color: #005f61;
+  color: white;
+  flex-direction: column;
+  text-align: center;
+}
+
+.card {
+  background-color: #f2c94c;
+  width: 280px;
+  text-align: center;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.card-content button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.explore {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.explore-card img {
+  width: 300px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.explore-card p {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.vacation {
+  text-align: center;
+  padding: 60px 40px;
+  background-color: #f5f5f5;
+}
+
+.vacation h2 {
+  font-size: 2rem;
+  color: #1c1c1c;
+  margin-bottom: 30px;
+}
+
+.vacation-cards {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.vacation-card {
+  width: 450px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding-bottom: 20px;
+  overflow: hidden;
+}
+
+.vacation-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.vacation-card h3 {
+  margin-top: 10px;
+  color: #003399;
+}
+
+.vacation-card p {
+  padding: 0 20px;
+  font-size: 14px;
+}
+
+.learn-link {
+  display: inline-block;
+  margin-top: 10px;
+  color: #0063e5;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #e0fafa;
+  padding: 60px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+footer img {
+  width: 800px;
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.footer-text {
+  max-width: 500px;
+  text-align: center;
+}
+
+.footer-text h3 {
+  color: #112d7b;
+  font-size: 22px;
+}
+
+.footer-text h4 {
+  margin-top: 20px;
+  color: #000;
+}
+
+.footer-text p {
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.footer-text button {
+  background-color: #7e3fff;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.copy {
+  font-size: 12px;
+  margin-top: 20px;
+  color: gray;
+}
+
